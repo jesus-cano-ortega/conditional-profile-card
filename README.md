@@ -4,6 +4,7 @@ El objetivo de este proyecto es trabajar con operadores ternarios. Estos operado
 
     ```
     condición ? expresión1 : expresión 2
+    
     ```
 
 Un ejemplo simple sería el siguiente: 
