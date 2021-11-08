@@ -2,13 +2,13 @@
 
 El objetivo de este proyecto es trabajar con operadores ternarios. Estos operadores, también conocidos como operadores condicionales, son sintaxis utilizadas como atajos para la instrucciones if y que cuentan con tres operandos: 
 
-    ```sh
+    ```
     condición ? expresión1 : expresión 2
     ```
 
 Un ejemplo simple sería el siguiente: 
 
-    ```sh
+    ```
     
     (Instrucción IF-ELSE)
     
