@@ -1,19 +1,43 @@
 # <img src="https://github.com/jesus-cano-ortega/js-introduction-exercises/blob/main/assets/resources/img/face.png" width="45" alt="Personal Logo"> Conditional Profile Card
 
+El objetivo de este proyecto es trabajar con operadores ternarios. Estos operadores, también conocidos como operadores condicionales, son sintaxis utilizadas como atajos para la instrucciones if y que cuentan con tres operandos: 
 
+    ```sh
+    condición ? expresión1 : expresión 2
+    ```
 
+Un ejemplo simple sería el siguiente: 
+
+    ```sh
+    
+    (Instrucción IF-ELSE)
+    
+    if(crtl){
+      console.log(expresión1);
+    }else {
+      console.log(expresión2);
+    }
+
+    (Operador Ternario)
+
+    crtl ? expresión1 : expresión2;
+
+    ```
+
+La condición inicial del operador ternario se evalúa como true o false y se opta por una de las dos expresiones. Este tipo de simplificaciones tan solo debe ser utilizado para ejecutar sentencias sencillas buscando siempre así, mejorar la legibilidad del código. 
 
 
 ## 🌱  Cómo iniciar este proyecto
 
 1. Este proyescto viene con los archivos necesarios para empezar a trabajar, pero tienes dos opciones para empezar:
 
-a) Abrir este link con Gitpod en tu navegador: https://gitpod.io#https://github.com/breatheco-de/exercise-conditional-profile-card.git
+    a) Abrir este link con Gitpod en tu navegador: https://gitpod.io#https://github.com/breatheco-de/exercise-conditional-profile-card.git
 
-b) Clonar este repositorio localmente en tu computador:
-```sh
-$ git clone https://github.com/breatheco-de/exercise-conditional-profile-card.git
-```
+    b) Clonar este repositorio localmente en tu computador:
+
+    ```sh
+    $ git clone https://github.com/breatheco-de/exercise-conditional-profile-card.git
+    ```
 2. Entra en la carpeta del proyecto:  `cd exercise-conditional-profile-card`
 
 3. Instala los paquetes NPM (asegúrate de usar la última versión de node): `npm install`
