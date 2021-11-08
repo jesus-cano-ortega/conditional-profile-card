@@ -4,7 +4,7 @@ El objetivo de este proyecto es trabajar con operadores ternarios. Estos operado
 
     ```
     condición ? expresión1 : expresión 2
-    
+
     ```
 
 Un ejemplo simple sería el siguiente: 
@@ -26,6 +26,14 @@ Un ejemplo simple sería el siguiente:
     ```
 
 La condición inicial del operador ternario se evalúa como true o false y se opta por una de las dos expresiones. Este tipo de simplificaciones tan solo debe ser utilizado para ejecutar sentencias sencillas buscando siempre así, mejorar la legibilidad del código. 
+
+En este ejercicio, se debe crear el código HTML necesario para representar una tarjeta de perfil, donde el código final cambie de ejecución en función de una serie de variables que vaya escogiendo o variando el usuario.
+
+![Conditional Profile Card](https://github.com/breatheco-de/exercise-conditional-profile-card/raw/master/preview.gif?raw=true)
+
+1. Dentro `src/app.js` hay una function llamada `render` que recibe un objeto `variables`.
+2. Este objeto `variables` contiene todos los valores asignados en el formulario de la aplicación (redes sociales, nombre apellido, etc.).
+3. La función render tiene la lógica necesaria para recibir los valores del objeto `variables` e incluirlos dentro del HTML de la pagina utilizando `innerHTML`.
 
 
 ## 🌱  Cómo iniciar este proyecto
